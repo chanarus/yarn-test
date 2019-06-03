@@ -1,0 +1,15 @@
+{
+  "name": "@sprii/supplier",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "next build",
+    "start": "next start -p 4003",
+    "dev": "next dev -p 4003"
+  },
+  "dependencies": {
+    "next": "^8.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "license": "ISC"
+}

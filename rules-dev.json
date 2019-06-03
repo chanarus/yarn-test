@@ -1,0 +1,8 @@
+{
+  "rules": [
+    {"pathname": "/shipping", "dest": "http://localhost:4001"},
+    {"pathname": "/warehouse", "dest": "http://localhost:4002"},
+    {"pathname": "/supplier", "dest": "http://localhost:4003"},
+    {"pathname": "/**", "dest": "http://localhost:4001"}
+  ]
+}

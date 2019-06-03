@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "shipping:dev": "yarn workspace @sprii/shipping run dev",
+    "shipping:build": "yarn workspace @sprii/shipping run build",
+    "shipping:start": "yarn workspace @sprii/shipping run start",
+    "warehouse:dev": "yarn workspace @sprii/warehouse run dev",
+    "warehouse:build": "yarn workspace @sprii/warehouse run build",
+    "warehouse:start": "yarn workspace @sprii/warehouse run start",
+    "supplier:dev": "yarn workspace @sprii/supplier run dev",
+    "supplier:build": "yarn workspace @sprii/supplier run build",
+    "supplier:start": "yarn workspace @sprii/supplier run start",
+    "common:build": "yarn workspace @sprii/common run build",
+    "proxy": "micro-proxy -r rules-dev.json"
+  },
+  "dependencies": {
+    "micro-proxy": "^1.0.0"
+  }
+}
